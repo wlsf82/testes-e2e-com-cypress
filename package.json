@@ -1,0 +1,28 @@
+{
+  "name": "testes-e2e-com-cypress",
+  "version": "1.0.0",
+  "description": "👋 Seja bem vindo(a)!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint cypress/**/*.js",
+    "lint:fix": "eslint cypress/**/*.js --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vitorffo/testes-e2e-com-cypress.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vitorffo/testes-e2e-com-cypress/issues"
+  },
+  "homepage": "https://github.com/vitorffo/testes-e2e-com-cypress#readme",
+  "devDependencies": {
+    "cypress": "^9.7.0",
+    "cypress-file-upload": "^5.0.8",
+    "cypress-mailosaur": "^2.3.3",
+    "faker": "^5.5.3"
+  }
+}
