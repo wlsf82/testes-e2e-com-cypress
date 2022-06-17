@@ -8,8 +8,8 @@
     "lint:fix": "eslint cypress/**/*.js --fix",
     "cy:open": "cypress open",
     "cy:open:tablet": "cypress open --config viewportWidth=767,viewportHeight=480",
-    "test": "cypress run",
-    "test:tablet": "cypress run --config viewportWidth=767,viewportHeight=480 --spec cypress/integration/authenticatedScenarios.spec.js"
+    "test": "cypress run --record --tag 'desktop'",
+    "test:tablet": "cypress run --record --tag 'tablet' --config viewportWidth=767,viewportHeight=480 --spec cypress/integration/authenticatedScenarios.spec.js"
   },
   "repository": {
     "type": "git",
