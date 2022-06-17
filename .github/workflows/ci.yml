@@ -21,10 +21,10 @@ jobs:
     container: cypress/browsers:node12.18.3-chrome87-ff82
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v2
 
       - name: Run end-to-end tests on desktop viewport 🧪
-        uses: cypress-io/.github-action@v4
+        uses: cypress-io/.github-action@v2
         env:
           CYPRESS_USER_EMAIL: ${{ secrets.CYPRESS_USER_EMAIL }}
           CYPRESS_USER_PASSWORD: ${{ secrets.CYPRESS_USER_PASSWORD }}
@@ -38,10 +38,10 @@ jobs:
     container: cypress/browsers:node12.18.3-chrome87-ff82
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v2
 
       - name: Run end-to-end tests on tablet viewport 🧪
-        uses: cypress-io/.github-action@v4
+        uses: cypress-io/.github-action@v2
         env:
           CYPRESS_USER_EMAIL: ${{ secrets.CYPRESS_USER_EMAIL }}
           CYPRESS_USER_PASSWORD: ${{ secrets.CYPRESS_USER_PASSWORD }}
