@@ -12,7 +12,7 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: Install modules
-      run: npm install eslint@7.32.0
+      run: npm install eslint@latest eslint-plugin-cypress@latest
     - name: Run ESLint
       run: npm run lint
   cypress-tests-desktop:
