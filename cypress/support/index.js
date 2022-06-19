@@ -1,4 +1,4 @@
-import cypress_grep from 'cypress-grep';
+import cypress_grep from 'cypress-grep'
 
 cypress_grep()
 
