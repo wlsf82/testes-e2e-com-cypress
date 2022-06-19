@@ -1,4 +1,6 @@
-require('cypress-grep')()
+import cypress_grep from 'cypress-grep';
+
+cypress_grep()
 
 import './commands'
 import 'cypress-mailosaur'
